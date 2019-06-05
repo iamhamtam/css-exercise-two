@@ -4,16 +4,21 @@ body {
 }
 
 nav {
-  background-color: rgba(0,0,0,.5);
+  background-color: #4d4dff;
   float: left;
   position: fixed;
   width: 100%;
 }
 
+.right {
+  color: white;
+  font-size: 28px;
+}
+
 .logo {
   margin: 20px;
   width: 100px;
-  pa
+
 }
 
 .large-pic {
@@ -62,18 +67,18 @@ a:active { color:#000000; } /* selected */
 h1 {
   font-size: 48px;
   text-align: center;
-  padding-bottom: 15px;
+  padding: 20px;
 }
 
 h3 {
-  font-size: 22px;
-  line-height: 24px;
+  font-size: 30px;
+  line-height: 34px;
   padding-bottom: 20px;
 }
 
 p {
-  font-size: 16px;
-  line-height: 21px;
+  font-size: 20px;
+  line-height: 26px;
   padding-bottom: 6px;
 }
 
@@ -81,8 +86,9 @@ figure {
     border: thin #c0c0c0 solid;
     align-items: center;
     text-align: center;
-    font-size: 14px;
+    line-height: 26px;
+    font-size: 18px;
     font-style: italic;
-    padding: 7px;
+    padding: 15px;
 
 }
